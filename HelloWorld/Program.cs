@@ -1,15 +1,15 @@
 Console.Write("Enter the first number: ");
-string? arg1 = Console.ReadLine();
-double.TryParse(arg1, out double num1);
+var arg1 = Console.ReadLine();
+double.TryParse(arg1, out var num1);
 
 Console.Write("Enter the second number: ");
-string? arg2 = Console.ReadLine();
-double.TryParse(arg2, out double num2);
+var arg2 = Console.ReadLine();
+double.TryParse(arg2, out var num2);
 
 Console.Write("Enter an operator (+, -, *, /): ");
-string? op = Console.ReadLine();
+var op = Console.ReadLine();
 
-double result = 0;
+var result = 0.0d;
 
 switch (op)
 {
