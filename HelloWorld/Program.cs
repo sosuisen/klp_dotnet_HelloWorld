@@ -1,2 +1,2 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+string hometown = "奈良";
+Console.WriteLine($"I was born in {hometown}, which is a great city.");
